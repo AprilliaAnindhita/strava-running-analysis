@@ -1,41 +1,50 @@
-## Strava Running Time Analysis
+## Strava Running Activity Analysis
+### Project Overview
+This project presents an exploratory data analysis (EDA) of running activity data collected from Strava. The objective is to understand patterns and trends in running behavior, including distance, pace, duration, and frequency of activities over time.
 
-###  Project Overview
-This project analyzes running activity patterns using Strava running data.
-The main objective is to identify users’ favorite running hours and days.
+The analysis uses real-world personal activity data to demonstrate practical data analytics skills such as data preprocessing, visualization, and insight generation.
 
-###  Dataset
-- Source: Kaggle
-- Format: Excel (.xlsx)
-- Contains running start time, distance, duration, and speed.
+### Dataset
+- Source: Strava (exported personal activity data)
+- Format: CSV
+- Activity Type: Running
+- Metrics Analyzed:
+  - Distance
+  - Duration
+  - Pace
+  - Activity frequency
+  - Temporal patterns (daily / weekly trends)
 
-###  Tools & Libraries
-- Python
-- Google Colab
-- pandas
-- matplotlib
-- seaborn
+### Tools & Libraries
+1. Python
+2. pandas
+3. matplotlib
+4. seaborn
 
-###  Analysis Performed
-- Data preprocessing and feature extraction
-- Analysis of favorite running hours
-- Analysis of favorite running days
-- Additional analysis on distance and duration
+### Analysis Performed
+The following analyses were conducted:
+1. Distribution of running distance and duration
+2. Pace analysis across activities
+3. Weekly and monthly running trends
+4. Activity frequency over time
+5. Identification of consistency patterns in running habits
 
-###  Key Insights
-- Running activities are most frequent during morning and evening hours
-- Higher activity levels are observed on weekends
-- Time availability influences running behavior
+### Key Findings
+- Running activity shows variation in distance and pace across sessions
+- Consistent running patterns are observable over specific time periods
+- Pace tends to stabilize as running frequency increases
+- Weekly trends highlight preferred running days
 
-###  How to Run
-1. Open the notebook in Google Colab
-2. Upload the dataset file
-3. Run all cells sequentially
+### Conclusion
+This analysis demonstrates how exploratory data analysis can be applied to personal fitness data to extract meaningful insights about physical activity behavior. The project highlights the importance of data-driven reflection in understanding performance trends and habit consistency.
 
-###  Files
-- `Analisis_Kebiasaan_Lari_Strava.ipynb`
-- `Strava Running Data.xlsx`
-- `README.md`
+### Project Structure
 
-###  Author
-Informatics Engineering Student – Beginner Data Analysis Project
+- Strava_Running_EDA.ipynb → Main analysis notebook
+- activities.csv → Strava activity dataset
+- README.md → Project documentation
+
+### Author
+
+#### Informatics Engineering Student
+*Data Analytics Portfolio Project*
